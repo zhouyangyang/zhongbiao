@@ -1,0 +1,87 @@
+ .xiao{
+             width:25%;
+             height:100%;
+         text-align: center;
+         line-height: 156px;
+             float: left;
+         font-size: 50px;
+         }
+      .lb{
+          margin:0 auto;
+          border:2px solid red;
+          width:156px;
+          height:156px;
+      }
+
+     .yu{
+         width:1px;
+         height:20px;
+         background: white;
+
+     }
+     .clock1{
+
+          width:166px;
+          height:166px;
+
+          border-radius: 50%;
+          position:absolute;
+         z-index: 21;
+        
+         background: radial-gradient(#F3F3F3 1%,#f3f3f3 64%,#808080 92%,black 100%);
+      }
+     .clock{
+
+         width:156px;
+         height:156px;
+         /*border:4px solid #2D2D2D;*/
+         border-radius: 50%;
+         position:absolute;
+         z-index: 34;
+         margin:auto;
+         left:5px;
+
+         top:5px;
+         background: radial-gradient(#F3F3F3,#f3f3f3 80%,#A9A9A9 90%,black 100%);
+     }
+     .kedu{
+
+         background: #737373;
+         position: absolute;
+
+     }
+     .shuzi{
+         position: absolute;
+     }
+     .hidden{
+         position: absolute;
+         left:50%;
+         top:50%;
+         width:8px;
+         height:8px;
+         margin-left: -4px;
+         margin-top:-4px;
+         border-radius: 50%;
+         background: black;
+         z-index: 203;
+     }
+     .hidden1{
+         position: absolute;
+         margin-left: -2px;
+         margin-top:-2px;
+         top:50%;
+         left:50%;
+         width: 4px;
+         height:4px;
+         background: red;
+         border-radius: 50%;
+     }
+     .biao{
+        width: 156px;
+    height: 156px;
+    margin: 0 auto;
+    position: relative;
+    top: 421px;
+    z-index: 3443;
+     }
+    
